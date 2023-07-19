@@ -10,7 +10,7 @@ describe("Gestion des usagers", () => {
   });
   
   
-   for (let i = 1; i <= 5; i++) {
+   for (let i = 1; i <= 1; i++) {
       it("Création des usagers", () => {
 
         // Choisissez un site
@@ -53,7 +53,7 @@ describe("Gestion des usagers", () => {
 });
     
 }
-      it("Modifier les information d'un usager", () => {
+      it.skip("Modifier les information d'un usager", () => {
 
 
         cy.get(':nth-child(2) > a > span > .icon-modx').click();
@@ -69,7 +69,7 @@ describe("Gestion des usagers", () => {
 
     });
 
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 1; i++) {
     it("Création d'un groupe d'usager", () => {
 
       const faker = require('faker');

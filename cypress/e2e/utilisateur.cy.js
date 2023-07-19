@@ -4,7 +4,7 @@ describe("Gestion des rôles et utilisateurs", () => {
     cy.login("superAdmin", "XEeYe7EIxVZA8iCs", "Bienvenue");
   });
   
-  //for (let i = 1; i <= 10; i++) {
+  //for (let i = 1; i <= 1; i++) {
     it("Création d'un utilisateur", () => {
       
      cy.xpath('//div[@aria-haspopup="menu"][1]').should('be.visible');
